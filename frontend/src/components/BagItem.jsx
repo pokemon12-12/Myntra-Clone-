@@ -34,7 +34,7 @@ const BagItem = ({ item }) => {
       </div>
 
       <div className="remove-from-cart" onClick={handleDeleteBagItem}>
-        X
+        <i class="bi bi-trash-fill"></i>
       </div>
     </div>
   );
